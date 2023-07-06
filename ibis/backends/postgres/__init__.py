@@ -34,7 +34,7 @@ class Backend(BaseAlchemyBackend):
 
     def do_connect(
         self,
-        host: str = 'localhost',
+        host: str = '',
         user: str | None = None,
         password: str | None = None,
         port: int = 5432,
